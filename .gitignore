@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Pytest
+.pytest_cache/
+.cache/
+
+# Relatórios gerados pelo scraper
+top_10_dominios.csv
+distribuicao_paises.json
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Docker
+.dockerignore
+
+# IDEs
+.vscode/
+.idea/
+*.iml
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+charts/s
