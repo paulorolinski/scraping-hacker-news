@@ -46,7 +46,13 @@ cd hacker-news-scraper
 ### 2. Suba os containers
 
 ```bash
+#Utilize somente 1 dos dois comandos
+
+# Com logs no terminal (recomendado na primeira execução)
 docker compose up --build
+
+# Em background, sem output nenhum no terminal
+docker compose up --build -d
 ```
 
 Isso irá:
